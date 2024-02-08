@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.banner{
+    background-position:left  ;
+    background-size: center;
+    justify-content: left;
+    
+}
+.navbar{
+    /* padding-bottom: 4px; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    margin-left: 3px;
+    padding: 0 35px;
+}
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin: 50px;
+    display: inline-flex;
+    /* padding-bottom: 8px; */
+    
+
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    z-index: 1;
+    
+}
+li a:hover{
+    background-color: orange;
+    padding: 15px;
+    border-radius:10px ;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color:white;
+}
+.join{
+    border-radius: 10px;
+    border:none;
+    background-color: orange;
+    color:black ;
+    padding: 10px;
+    margin-left: 50px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top:45%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 0;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 60px;
+    font-weight: 800;
+}
+.continent{font-size: 40px;
+color:white ;
+margin-top: 4px;
+font-weight: 200;
+}
+.continent2{font-size: 30px;
+color: white;
+margin-top: 10px;
+font-weight: 100;
+}
+.green{
+    padding: 15px; 
+}
+.leaf{
+width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+}
+.leave{
+    margin: 20px;
+    padding: 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .banner video{
+        width:100%;
+        height: auto;
+    }
+}
